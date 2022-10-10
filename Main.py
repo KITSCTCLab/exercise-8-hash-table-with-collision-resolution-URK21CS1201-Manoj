@@ -14,7 +14,6 @@ def Hashing(keyvalue) -> int:
 def insert(Hashtable, keyvalue, value) -> None:
 	Hashtable[Hashing(keyvalue)].append(value)
 
-
 # Do not edit the following code
 hash_table_size = int(input())
 # Create Hashtable as a list of list.
@@ -27,4 +26,4 @@ for item in re.split('], |].', input_data):
   if len(data) > 1:
     insert(HashTable, int(data[0]), data[1])
 
-display_hash(HashTable)
+display_hash (HashTable)
